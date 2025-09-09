@@ -13,7 +13,7 @@ GEMINI_API_KEY = "AIzaSyCgwnIuHmWlUoip9-dmiCaEEMXsTFux3RI"
 # (you only need SID/token if you want to trigger outbound calls programmatically,
 # for inbound webhooks this app doesn't use them)
 ACCOUNT_SID = "AC0cc9356b15491a0aea1841d5b200c236"
-AUTH_TOKEN = "dbc754047a5d9e272edbd4b85ba4ec23"
+AUTH_TOKEN = "e9d6552b972d659d4233acfcd1a16cf2"
 
 
 @app.route("/voice", methods=["POST"])
