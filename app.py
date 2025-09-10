@@ -72,7 +72,7 @@ def gather():
     try:
         # Call your AI Server instead of Gemini directly
         ai_resp = requests.post(
-            "https://your-ai-server.onrender.com/prompt", 
+            "https://ai-server-p4fk.onrender.com/prompt", 
             json={"query": user_input},
             timeout=8
         ).json()
